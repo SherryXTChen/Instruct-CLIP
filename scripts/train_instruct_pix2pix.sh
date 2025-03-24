@@ -1,0 +1,23 @@
+accelerate launch train_instruct_pix2pix.py \
+  --mixed_precision "fp16" \
+  --tracker_project_name "instructclip_ip2p" \
+  --pretrained_model_name_or_path "timbrooks/instruct-pix2pix" \
+  --train_data_dir "instructclip_datasets/InstructCLIP-InstructPix2Pix-Data/" \
+  --output_dir ckpts/ip2p_finetuned_test \
+  --enable_xformers_memory_efficient_attention \
+  --resolution 256 \
+  --conditioning_dropout_prob 0.05 \
+  --dataloader_num_workers 8 \
+  --train_batch_size 64 \
+  --gradient_accumulation_steps 1 \
+  --gradient_checkpointing \
+  --max_train_steps 15000 \
+  --validation_steps 15000 \
+  --checkpointing_steps 15000 \
+  --learning_rate 1e-4 \
+  --lr_warmup_steps 0 \
+  --max_grad_norm 1 \
+  --seed 42 \
+  --rank 32 \
+  --alpha 32 \
+  --report_to wandb
