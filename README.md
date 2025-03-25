@@ -1,6 +1,6 @@
 # InstructCLIP: Improving Instruction-Guided Image Editing with Automated Data Refinement Using Contrastive Learning (CVPR 2025)
 
-### [Arxiv](https://huggingface.co/SherryXTChen/InstructCLIP-InstructPix2Pix) | [Image Editing Model](https://huggingface.co/SherryXTChen/InstructCLIP-InstructPix2Pix) | [Data Refinement Model](https://www.dropbox.com/scl/fo/nn9pykrkxuvykdmt6gmok/ALPoT3AqY_sbnD7d_dq3gNE?rlkey=dx6jjujqhnx3l9g9vsz4cibsj&st=892mjrq2&dl=0) | [Data](https://huggingface.co/datasets/SherryXTChen/InstructCLIP-InstructPix2Pix-Data)
+### [Arxiv](http://arxiv.org/abs/2503.18406) | [Image Editing Model](https://huggingface.co/SherryXTChen/InstructCLIP-InstructPix2Pix) | [Data Refinement Model](https://www.dropbox.com/scl/fo/nn9pykrkxuvykdmt6gmok/ALPoT3AqY_sbnD7d_dq3gNE?rlkey=dx6jjujqhnx3l9g9vsz4cibsj&st=892mjrq2&dl=0) | [Data](https://huggingface.co/datasets/SherryXTChen/InstructCLIP-InstructPix2Pix-Data)
 
 ## Table of Contents
 - [Capabilities](#capabilities)
@@ -13,7 +13,8 @@
 - [Image Editing](#image-editing)
     - [Data Preparation with Refined Instructions](#data-preparation-with-refined-instructions)
     - [Training](#training)
-    - [Inference](#inference) 
+    - [Inference](#inference)
+- [Citation](#citation)
 
 ## Capabilities
 
@@ -133,4 +134,18 @@ image = download_image(url)
 prompt = "as a 3 d sculpture"
 images = pipe(prompt, image=image, num_inference_steps=20).images
 images[0].save("output.jpg")
+```
+
+## Citation
+If this work is helpful, please kindly cite as:
+```bibtex
+@misc{chen2025instructclipimprovinginstructionguidedimage,
+      title={Instruct-CLIP: Improving Instruction-Guided Image Editing with Automated Data Refinement Using Contrastive Learning}, 
+      author={Sherry X. Chen and Misha Sra and Pradeep Sen},
+      year={2025},
+      eprint={2503.18406},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2503.18406}, 
+}
 ```
