@@ -123,7 +123,7 @@ pipe.load_lora_weights("SherryXTChen/InstructCLIP-InstructPix2Pix")
 pipe.to("cuda")
 pipe.scheduler = EulerAncestralDiscreteScheduler.from_config(pipe.scheduler.config)
 
-url = "https://raw.githubusercontent.com/SherryXTChen/Instruct-CLIP/main/assets/1_input.jpg"
+url = "https://raw.githubusercontent.com/SherryXTChen/Instruct-CLIP/refs/heads/main/assets/1_input.jpg"
 def download_image(url):
     image = PIL.Image.open(requests.get(url, stream=True).raw)
     image = PIL.ImageOps.exif_transpose(image)
