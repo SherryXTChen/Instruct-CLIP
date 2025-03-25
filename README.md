@@ -19,7 +19,7 @@
 ## Capabilities
 
 <p align="center">
-  <img src="https://github.com/SherryXTChen/Instruct-CLIP/blob/main/assets/teaser_1.png" alt="Figure 1" width="42%">
+  <img src="https://github.com/SherryXTChen/Instruct-CLIP/blob/main/assets/teaser_1.png" alt="Figure 1" width="43%">
   <img src="https://github.com/SherryXTChen/Instruct-CLIP/blob/main/assets/teaser_2.png" alt="Figure 2" width="50%">
 </p>
 
