@@ -1,6 +1,6 @@
 # InstructCLIP: Improving Instruction-Guided Image Editing with Automated Data Refinement Using Contrastive Learning (CVPR 2025)
 
-### [Arxiv](http://arxiv.org/abs/2503.18406) | [Image Editing Model](https://huggingface.co/SherryXTChen/InstructCLIP-InstructPix2Pix) | [Data Refinement Model](https://www.dropbox.com/scl/fo/nn9pykrkxuvykdmt6gmok/ALPoT3AqY_sbnD7d_dq3gNE?rlkey=dx6jjujqhnx3l9g9vsz4cibsj&st=892mjrq2&dl=0) | [Data](https://huggingface.co/datasets/SherryXTChen/InstructCLIP-InstructPix2Pix-Data)
+### [Arxiv](http://arxiv.org/abs/2503.18406) | [Image Editing Model](https://huggingface.co/SherryXTChen/InstructCLIP-InstructPix2Pix) | [Data Refinement Model](https://huggingface.co/SherryXTChen/Instruct-CLIP) | [Data](https://huggingface.co/datasets/SherryXTChen/InstructCLIP-InstructPix2Pix-Data)
 
 ## Table of Contents
 - [Capabilities](#capabilities)
@@ -46,7 +46,7 @@ To train LD-DINOv2, run the following command, which save checkpoints in `ckpts/
 ```bash
 bash scripts/train_lddinov2.sh
 ```
-We have also provided the checkpoint [here](https://www.dropbox.com/scl/fo/nn9pykrkxuvykdmt6gmok/ALPoT3AqY_sbnD7d_dq3gNE?rlkey=dx6jjujqhnx3l9g9vsz4cibsj&st=892mjrq2&dl=0).
+We have also provided the checkpoint [here](https://huggingface.co/SherryXTChen/LatentDiffusionDINOv2).
 
 ### Instruct-CLIP Training
 
@@ -54,7 +54,7 @@ To train Instuct-CLIP, run the following command, which load the latest LD-DINOv
 ```bash
 bash scripts/train_iclip.sh
 ```
-We have also provided the checkpoint [here](https://www.dropbox.com/scl/fo/nn9pykrkxuvykdmt6gmok/ALPoT3AqY_sbnD7d_dq3gNE?rlkey=dx6jjujqhnx3l9g9vsz4cibsj&st=892mjrq2&dl=0).
+We have also provided the checkpoint [here](https://huggingface.co/SherryXTChen/Instruct-CLIP).
 
 ### Edit Instruction Refinement
 
