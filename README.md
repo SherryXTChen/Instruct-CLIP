@@ -101,8 +101,7 @@ We get over 120K samples with refined editing instructions [here](https://huggin
 
 ### Training
 
-LD-DINOv2 and Instruct-CLIP checkpoints are needed for training image editing models. See 
-We have also provided checkpoints for LD-DINOv2 and Instruct-CLIP [here](https://www.dropbox.com/scl/fo/nn9pykrkxuvykdmt6gmok/ALPoT3AqY_sbnD7d_dq3gNE?rlkey=dx6jjujqhnx3l9g9vsz4cibsj&st=892mjrq2&dl=0), which are needed for fine-tuning InstructPix2Pix. To fine-tune InstructPixPix on our dataset, run the following command where the checkpoints are stored in `ckpts/ip2p_finetuned` by default:
+Instruct-CLIP is needed for fine-tuning our image editing models. We have provided the checkpoint [here](https://huggingface.co/SherryXTChen/Instruct-CLIP). To fine-tune InstructPixPix on our dataset, run the following command where the checkpoints are stored in `ckpts/ip2p_finetuned` by default:
 ```bash
 bash train_instruct_pix2pix.sh
 ```
