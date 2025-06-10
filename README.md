@@ -1,6 +1,6 @@
 # InstructCLIP: Improving Instruction-Guided Image Editing with Automated Data Refinement Using Contrastive Learning (CVPR 2025)
 
-### [Arxiv](http://arxiv.org/abs/2503.18406) | [Image Editing Model](https://huggingface.co/SherryXTChen/InstructCLIP-InstructPix2Pix) | [Data Refinement Model](https://huggingface.co/SherryXTChen/Instruct-CLIP) | [Data](https://huggingface.co/datasets/SherryXTChen/InstructCLIP-InstructPix2Pix-Data)
+### [Arxiv](http://arxiv.org/abs/2503.18406) | [YouTube](https://www.youtube.com/watch?v=_d606jX62II) | [Image Editing Model](https://huggingface.co/SherryXTChen/InstructCLIP-InstructPix2Pix) | [Data Refinement Model](https://huggingface.co/SherryXTChen/Instruct-CLIP) | [Data](https://huggingface.co/datasets/SherryXTChen/InstructCLIP-InstructPix2Pix-Data)
 
 ## Table of Contents
 - [Capabilities](#capabilities)
